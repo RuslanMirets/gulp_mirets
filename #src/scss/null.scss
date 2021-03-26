@@ -55,6 +55,7 @@ button::-moz-focus-inner {
 a,
 a:visited {
     text-decoration: none;
+    font-family: $fontFamily;
 }
 a:hover {
     text-decoration: none;

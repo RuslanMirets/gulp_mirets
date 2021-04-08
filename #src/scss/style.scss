@@ -18,6 +18,9 @@ $fontFamily: "";
 //<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===============================================================================================
 @import "null";
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     color: #000;
     font-size: 14px;
     &._lock {
